@@ -1,30 +1,31 @@
-# detekcija-spam-poruka
-Projekt na prijediplomskom studiju u okviru kolegija Osnove strojnog učenja pod nazivom: DETEKCIJA SPAM PORUKA (SMS SPAM DETECTION)
+# detection-spam-message
+Undergraduate project within the course Basics of Machine Learning entitled: DETECTION OF SPAM MESSAGES (SMS SPAM DETECTION)
 
-## Opis projekta
-Ovaj projekt fokusira se na klasifikaciju SMS poruka u dvije kategorije: ham (legitimne poruke) i spam (neželjene poruke). Kroz projekt su uspoređeni tradicionalni statistički pristupi s modernim dubokim učenjem kako bi se postigla maksimalna preciznost u filtriranju zlonamjernog sadržaja.
+## Description of the project
+This project focuses on the classification of SMS messages into two categories: ham (legitimate messages) and spam (unsolicited messages). The project compared traditional statistical approaches with modern deep learning in order to achieve maximum precision in filtering malicious content.
 
-## Korištene tehnologije:
-Jezik: Python
-Biblioteke: TensorFlow/Keras, Scikit-learn, Pandas, NLTK/Spacy (za NLP obradu)
+## Technologies used:
+Language: Python
+Libraries: TensorFlow/Keras, Scikit-learn, Pandas, NLTK/Spacy (for NLP processing)
 Dataset: Kaggle SMS Spam Collection
-Prikaz i praćanje modela: TensorBoard
+Model display and tracking: TensorBoard
 
-## Glavne funkcionalnosti:
-- Obrada prirodnog jezika (NLP): Implementirano čišćenje teksta koje uključuje uklanjanje "stop" riječi, interpunkcije te tokenizaciju poruka.
-- Vektorizacija teksta: Korištenje tehnika poput TF-IDF ili Tokenizacije za pretvaranje sirovog teksta u numeričke podatke razumljive stroju.
-- Usporedba modela:
-- Naive Bayes: Korišten kao osnovni (baseline) model za brzu statističku klasifikaciju.
-- Neural Networks (Deep Learning): Razvijena vlastita neuronska mreža s više slojeva (Dense, Dropout za regularizaciju) koja je postigla značajno bolje rezultate u prepoznavanju kompleksnih uzoraka spama.
-- Evaluacija s fokusom na preciznost: Budući da je u ovom problemu ključno da se legitimna poruka (ham) ne označi greškom kao spam, fokus evaluacije bio je na matrici zabune (Confusion Matrix) i F1-mjeri.
+## Main functionalities:
+- Natural Language Processing (NLP): Implemented text cleaning that includes removal of "stop" words, punctuation and tokenization of messages.
+- Text vectorization: Using techniques like TF-IDF or Tokenization to convert raw text into machine-readable numerical data.
+- Comparison of models:
+- Naive Bayes: Used as a baseline model for fast statistical classification.
+- Neural Networks (Deep Learning): Developed our own neural network with multiple layers (Dense, Dropout for regularization), which achieved significantly better results in recognizing complex spam patterns.
+- Evaluation with a focus on precision: Since it is crucial in this problem that a legitimate message (ham) is not mistakenly marked as spam, the focus of the evaluation was on the Confusion Matrix and the F1-measure.
 
-## Kako pokrenuti projekt?
-Instaliranjem potrebnih biblioteka i pokretanjem .py datoteke dostupne u okviru ovog repozitorija.
+## How to start a project?
+By installing the necessary libraries and running the .py file available under this repository.
 
-## Rezultati:
-- Projekt je uspješno demonstrirao nadmoć dubokih modela uz pravilnu konfiguraciju i regularizaciju.
-- Postignuta je visoka točnost (Accuracy) i odziv (Recall), što omogućuje pouzdano filtriranje poruka u realnom vremenu.
+## Results:
+- The project successfully demonstrated the supremacy of deep models with proper configuration and regularization.
+- High accuracy (Accuracy) and response (Recall) were achieved, which enables reliable filtering of messages in real time.
 
-## Autori:
-- Ivona Pranjić
-- Helena Zvocak
+## Authors:
+Ivona Pranjić
+Helena Zvocak,
+2024./2025.
