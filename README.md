@@ -26,6 +26,6 @@ By installing the necessary libraries and running the .py file available under t
 - High accuracy (Accuracy) and response (Recall) were achieved, which enables reliable filtering of messages in real time.
 
 ## Authors:
-Ivona Pranjić
+Ivona Pranjić &
 Helena Zvocak,
 2024./2025.
